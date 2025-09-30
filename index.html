@@ -526,10 +526,10 @@
 		href="https://askproject.net/brance/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faskproject.net%2Fbrance%2Fhome%2F">
 	<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
 		href="https://askproject.net/brance/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faskproject.net%2Fbrance%2Fhome%2F&amp;format=xml">
-	
-	
-	
-		<meta name="generator"
+
+
+
+	<meta name="generator"
 		content="Elementor 3.32.2; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
 
 	<style>
@@ -570,7 +570,7 @@
 		<div data-elementor-type="wp-post" data-elementor-id="577" class="elementor elementor-577">
 			<section
 				class="elementor-section elementor-top-section elementor-element elementor-element-3e27783 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-				data-id="3e27783" data-element_type="section" style="background-color: #c9c9c9;">
+				data-id="3e27783" data-element_type="section" style="background-color: #fff;">
 				<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0386df7 animated fadeIn"
 						data-id="0386df7" data-element_type="column"
@@ -665,7 +665,7 @@
 		<section
 			class="elementor-section elementor-top-section elementor-element elementor-element-ddbcf13 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
 			data-id="ffd703" data-element_type="section"
-			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-color: #ffd703;">
+			data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background: linear-gradient(to right, #e3ba24, #b6332f, #3c3e78);">
 			<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-31a29c2"
 					data-id="31a29c2" data-element_type="column">
@@ -699,7 +699,7 @@
 											data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:400}"
 											data-widget_type="text-editor.default">
 											<div class="elementor-widget-container">
-												<p>ZIEL helps organizations grow through leadership training, HR
+												<p style="color: #000;">ZIEL helps organizations grow through leadership training, HR
 													advisory, and business strategy solutions.</p>
 											</div>
 										</div>
@@ -743,13 +743,13 @@
 														<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-float elementor-repeater-item-0bc32d6"
 															target="_blank">
 															<span class="elementor-screen-only">Facebook</span>
-															<i aria-hidden="true" class="fab fa-facebook"></i> </a>
+															<i aria-hidden="true" class="fab fa-facebook" style="color: #000;"></i> </a>
 													</span>
 													<span class="elementor-grid-item" role="listitem">
 														<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-float elementor-repeater-item-9690d6b"
 															target="_blank">
 															<span class="elementor-screen-only">Twitter</span>
-															<i aria-hidden="true" class="fab fa-twitter"></i> </a>
+															<i aria-hidden="true" class="fab fa-twitter" style="color: #000;"></i> </a>
 													</span>
 
 
@@ -757,13 +757,13 @@
 														<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-animation-float elementor-repeater-item-4196c41"
 															target="_blank">
 															<span class="elementor-screen-only">Linkedin-in</span>
-															<i aria-hidden="true" class="fab fa-linkedin-in"></i> </a>
+															<i aria-hidden="true" class="fab fa-linkedin-in" style="color: #000;"></i> </a>
 													</span>
 													<span class="elementor-grid-item" role="listitem">
 														<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-float elementor-repeater-item-aa5c7c6"
 															target="_blank">
 															<span class="elementor-screen-only">Youtube</span>
-															<i aria-hidden="true" class="fab fa-youtube"></i> </a>
+															<i aria-hidden="true" class="fab fa-youtube" style="color: #000;"></i> </a>
 													</span>
 												</div>
 											</div>
@@ -1022,71 +1022,80 @@
 			</div>
 		</section>
 
-		
-<style>
-  .logo-slider {
-    overflow: hidden;
-    width: 100%;
-    background: #000;
-	padding: 40px 0;
-  }
 
-  .logo-track {
-    display: flex;
-    animation: scroll 20s linear infinite;
-  }
+		<style>
+			.logo-slider {
+				overflow: hidden;
+				width: 100%;
+				background: #000;
+				padding: 40px 0;
+			}
 
-  .logo-track img {
-    width: 150px; /* adjust logo width if needed */
-    margin-right: 38px; /* very small spacing between logos */
-    height: auto;
-  }
+			.logo-track {
+				display: flex;
+				animation: scroll 20s linear infinite;
+			}
 
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%); /* scroll half of total width for infinite loop */
-    }
-  }
+			.logo-track img {
+				width: 150px;
+				/* adjust logo width if needed */
+				margin-right: 38px;
+				/* very small spacing between logos */
+				height: auto;
+			}
 
-  /* Duplicate slide for seamless loop */
-  .logo-slide {
-    display: flex;
-  }
-</style>
+			@keyframes scroll {
+				0% {
+					transform: translateX(0);
+				}
 
-<div class="logo-slider">
-  <div class="logo-track">
-    <div class="logo-slide">
-      <img src="logos/2.png" alt="">
-      <img src="logos/3.png" alt="">
-      <img src="logos/4.png" alt="">
-      <img src="logos/5.png" alt="">
-      <img src="logos/6.png" alt="">
-      <img src="logos/7.png" alt="">
-      <img src="logos/8.png" alt="">
-      <img src="logos/9.png" alt="">
-      <img src="logos/10.png" alt="">
-      <img src="logos/11.png" alt="">
+				100% {
+					transform: translateX(-50%);
+					/* scroll half of total width for infinite loop */
+				}
+			}
 
-      <img src="logos/2.png" alt="">
-      <img src="logos/3.png" alt="">
-      <img src="logos/4.png" alt="">
-      <img src="logos/5.png" alt="">
-      <img src="logos/6.png" alt="">
-      <img src="logos/7.png" alt="">
-      <img src="logos/8.png" alt="">
-      <img src="logos/9.png" alt="">
-      <img src="logos/10.png" alt="">
-      <img src="logos/11.png" alt="">
+			/* Duplicate slide for seamless loop */
+			.logo-slide {
+				display: flex;
+			}
+
+			.elementor-38 .elementor-element.elementor-element-0dcff80:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+			.elementor-38 .elementor-element.elementor-element-0dcff80>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+				background-color: #b6332f;
+			}
+		</style>
+
+		<div class="logo-slider">
+			<div class="logo-track">
+				<div class="logo-slide">
+					<img src="logos/2.png" alt="">
+					<img src="logos/3.png" alt="">
+					<img src="logos/4.png" alt="">
+					<img src="logos/5.png" alt="">
+					<img src="logos/6.png" alt="">
+					<img src="logos/7.png" alt="">
+					<img src="logos/8.png" alt="">
+					<img src="logos/9.png" alt="">
+					<img src="logos/10.png" alt="">
+					<img src="logos/11.png" alt="">
+
+					<img src="logos/2.png" alt="">
+					<img src="logos/3.png" alt="">
+					<img src="logos/4.png" alt="">
+					<img src="logos/5.png" alt="">
+					<img src="logos/6.png" alt="">
+					<img src="logos/7.png" alt="">
+					<img src="logos/8.png" alt="">
+					<img src="logos/9.png" alt="">
+					<img src="logos/10.png" alt="">
+					<img src="logos/11.png" alt="">
 
 
-    </div>
+				</div>
 
-  </div>
-</div>
+			</div>
+		</div>
 
 
 		<section
@@ -1116,7 +1125,8 @@
 							class="elementor-section elementor-inner-section elementor-element elementor-element-f8f41f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
 							data-id="f8f41f0" data-element_type="section">
 							<div class="elementor-container elementor-column-gap-default">
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
+								<div style="background-color: #6a1c36"
+									class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
 									data-id="0dcff80" data-element_type="column"
 									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 									<div class="elementor-widget-wrap elementor-element-populated">
@@ -1196,7 +1206,8 @@
 									</div>
 								</div>
 
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
+								<div style="background-color: #6a1c36"
+									class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
 									data-id="0dcff80" data-element_type="column"
 									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 									<div class="elementor-widget-wrap elementor-element-populated">
@@ -1236,25 +1247,32 @@
 														<span class="elementor-icon-list-icon">
 															<i class="fa fa-angle-right" aria-hidden="true"></i>
 														</span>
-														<span class="elementor-icon-list-text">Traditional production arms are often slow, expensive, and creatively disconnected.</span>
+														<span class="elementor-icon-list-text">Traditional production
+															arms are often slow, expensive, and creatively
+															disconnected.</span>
 													</li>
 													<li class="elementor-icon-list-item">
 														<span class="elementor-icon-list-icon">
 															<i class="fa fa-angle-right" aria-hidden="true"></i>
 														</span>
-														<span class="elementor-icon-list-text">Ziel’s production cell is built like a nimble content studio — integrated closely with creative and strategy teams.</span>
+														<span class="elementor-icon-list-text">Ziel’s production cell is
+															built like a nimble content studio — integrated closely with
+															creative and strategy teams.</span>
 													</li>
 													<li class="elementor-icon-list-item">
 														<span class="elementor-icon-list-icon">
 															<i class="fa fa-angle-right" aria-hidden="true"></i>
 														</span>
-														<span class="elementor-icon-list-text">From reels to high-gloss brand films, we execute with efficiency, craft, and storytelling edge.</span>
+														<span class="elementor-icon-list-text">From reels to high-gloss
+															brand films, we execute with efficiency, craft, and
+															storytelling edge.</span>
 													</li>
 													<li class="elementor-icon-list-item">
 														<span class="elementor-icon-list-icon">
 															<i class="fa fa-angle-right" aria-hidden="true"></i>
 														</span>
-														<span class="elementor-icon-list-text">No overhead. No confusion. Just slick, on-brand output — always.</span>
+														<span class="elementor-icon-list-text">No overhead. No
+															confusion. Just slick, on-brand output — always.</span>
 													</li>
 												</ul>
 
@@ -1263,7 +1281,8 @@
 									</div>
 								</div>
 
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
+								<div style="background-color: #6a1c36"
+									class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
 									data-id="0dcff80" data-element_type="column"
 									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 									<div class="elementor-widget-wrap elementor-element-populated">
@@ -1299,31 +1318,38 @@
 											data-widget_type="icon-list.default">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">We don’t “bolt on” tech. We build it in.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Ziel’s tech vertical focuses on meaningful digital products and experiences, not bloated code or pointless features.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Whether it’s a high-performance website, immersive UX, or a data tool that helps you scale, our team works as an embedded partner.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Fast, modular, and strategically aligned.</span>
-	</li>
-</ul>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">We don’t “bolt on” tech.
+															We build it in.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Ziel’s tech vertical
+															focuses on meaningful digital products and experiences, not
+															bloated code or pointless features.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Whether it’s a
+															high-performance website, immersive UX, or a data tool that
+															helps you scale, our team works as an embedded
+															partner.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Fast, modular, and
+															strategically aligned.</span>
+													</li>
+												</ul>
 
 											</div>
 										</div>
@@ -1332,9 +1358,10 @@
 
 							</div>
 
-							<div class="elementor-container elementor-column-gap-default">
-									
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
+							<div class="elementor-container elementor-column-gap-default" style="margin-top: 50px;">
+
+								<div style="background-color: #6a1c36"
+									class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
 									data-id="0dcff80" data-element_type="column"
 									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 									<div class="elementor-widget-wrap elementor-element-populated">
@@ -1370,38 +1397,45 @@
 											data-widget_type="icon-list.default">
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items">
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Sports marketing isn’t just sponsorships and logo placements — it’s culture, passion, and community.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Our sports vertical is a standalone unit that understands the fandom economy.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">We build athlete brands, amplify sporting IP, and create campaigns that connect beyond the scoreboard.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">From grassroots to pro leagues.</span>
-	</li>
-</ul>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Sports marketing isn’t
+															just sponsorships and logo placements — it’s culture,
+															passion, and community.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Our sports vertical is a
+															standalone unit that understands the fandom economy.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">We build athlete brands,
+															amplify sporting IP, and create campaigns that connect
+															beyond the scoreboard.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">From grassroots to pro
+															leagues.</span>
+													</li>
+												</ul>
 
 											</div>
 										</div>
 									</div>
 								</div>
 
-								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
+								<div style="background-color: #6a1c36"
+									class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0dcff80 elementor-invisible"
 									data-id="0dcff80" data-element_type="column"
 									data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:400}">
 									<div class="elementor-widget-wrap elementor-element-populated">
@@ -1436,26 +1470,31 @@
 											data-id="4dfec39" data-element_type="widget"
 											data-widget_type="icon-list.default">
 											<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">SEO shouldn’t be an afterthought or a monthly checkbox.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Our SEO micro-agency works like a growth partner — combining technical audits, content intelligence, and real-time optimization into a living system.</span>
-	</li>
-	<li class="elementor-icon-list-item">
-		<span class="elementor-icon-list-icon">
-			<i class="fa fa-angle-right" aria-hidden="true"></i>
-		</span>
-		<span class="elementor-icon-list-text">Because performance shouldn’t lag behind creativity — it should fuel it.</span>
-	</li>
-</ul>
+												<ul class="elementor-icon-list-items">
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">SEO shouldn’t be an
+															afterthought or a monthly checkbox.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Our SEO micro-agency
+															works like a growth partner — combining technical audits,
+															content intelligence, and real-time optimization into a
+															living system.</span>
+													</li>
+													<li class="elementor-icon-list-item">
+														<span class="elementor-icon-list-icon">
+															<i class="fa fa-angle-right" aria-hidden="true"></i>
+														</span>
+														<span class="elementor-icon-list-text">Because performance
+															shouldn’t lag behind creativity — it should fuel it.</span>
+													</li>
+												</ul>
 
 											</div>
 										</div>
